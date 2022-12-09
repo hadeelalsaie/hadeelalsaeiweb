@@ -1,0 +1,52 @@
+body{
+  background-color: #EEE2DC;
+  overflow: auto;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  color: #123C69;
+}
+h4, h5{
+  color: #AC3B61;
+}
+
+img.cupcake{
+  border-style: solid;
+  border-color: #AC3B61;
+  width: 25%;
+  height: 10%;
+  margin-bottom: 10%;
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+}
+
+#footer{
+  background-color: #efefef;
+  padding:1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: #123C69;
+}
+*{
+  box-sizing: border-box;
+}
+/*media queries to make the website responsive to several screen sizes*/
+@media only screen and (max-width:700px){
+  .responsive{
+    width:100%;
+    height:auto;
+    position: relative;
+  }
+}
+@media only screen and (max-width:500px){
+  .responsive{
+    width:100%;
+    height:auto;
+    position: relative;
+  }
+}

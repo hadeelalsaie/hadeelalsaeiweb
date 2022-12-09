@@ -1,0 +1,169 @@
+body{
+  background-color: #EEE2DC;
+  overflow: auto;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+#content{
+  overflow: auto;
+}
+
+#nav a{
+  display: inline-block;
+  color: #123C69;
+  padding-top:1%;
+  padding-bottom: 1%;
+  padding-left: 8.2%;
+  padding-right: 8.2%;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  font-size: 100%;
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+}
+#nav a.active{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 8.2%;
+  padding-right: 8.2%;
+  background-color: #AC3B61;
+  color: #EDC7B7;
+}
+#nav a:hover:not(.active){
+  background-color: #EDC7B7;
+  text-decoration: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 8.7%;
+  padding-right: 8.7%;
+}
+
+#info{
+  height:auto;
+  margin-bottom: 1%;
+  background-color: #efefef;
+}
+
+.ingredients {
+  width : 96%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 10%;
+  margin-top:2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  height:auto;
+  background-color: #efefef;
+  text-align: center;
+  color: #123C69;
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+}
+.tools{
+  width : 96%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 10%;
+  margin-top:2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  height:auto;
+  background-color: #efefef;
+  text-align: center;
+  color: #123C69;
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+}
+
+.recipe{
+  width : 96%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 10%;
+  margin-top:2%;
+  margin-bottom: 2%;
+  padding-bottom: 1%;
+  height:auto;
+  background-color: #efefef;
+  text-align: center;
+  color: #123C69;
+  -moz-box-shadow: 5px 5px 5px #777777;
+  -webkit-box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777;
+}
+#fullrecipe{
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+.pics{
+  display: inline;
+  text-align: left;
+  color: #123C69;
+}
+#progress{
+  padding-left: 2.5%;
+}
+
+.img1, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12{
+  height: 10%;
+  width: 10%;
+
+}
+.img2{
+  height: 10%;
+  width: 10%;
+}
+
+h1{
+  color: #123C69;
+}
+h3{
+  color: #AC3B61;
+}
+p{
+  color: #123C69;
+}
+h4{
+  padding-left: 2%;
+}
+
+
+#footer{
+  background-color: #efefef;
+  padding:1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+*{
+  box-sizing: border-box;
+}
+/*media queries to make the website responsive to several screen sizes*/
+@media only screen and (max-width:700px){
+  .responsive{
+    width:100%;
+    height:auto;
+    position: relative;
+  }
+}
+@media only screen and (max-width:500px){
+  .responsive{
+    width:100%;
+    height:auto;
+    position: relative;
+  }
+}
+@media only screen and (max-width:1000px){
+  .responsive{
+    width:100%;
+    height:auto;
+    position: relative;
+  }
+}
